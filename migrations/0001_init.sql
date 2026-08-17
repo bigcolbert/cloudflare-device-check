@@ -10,7 +10,6 @@ id TEXT PRIMARY KEY,
 name TEXT,
 category TEXT,
 location TEXT,
-template TEXT,
 status TEXT
 );
 
@@ -26,13 +25,5 @@ created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 CREATE TABLE work_order(
 id TEXT PRIMARY KEY,
 equipment_id TEXT,
-fault TEXT,
-status TEXT,
-worker TEXT
-);
-
-CREATE TABLE inspection_template(
-id TEXT PRIMARY KEY,
-name TEXT,
-items TEXT
+status TEXT
 );

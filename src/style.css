@@ -1,0 +1,18 @@
+body{
+margin:0;
+font-family:Arial,"Microsoft YaHei";
+background:#f5f7fa;
+}
+.app{
+padding:40px;
+}
+.cards{
+display:flex;
+gap:20px;
+}
+.cards div{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 2px 8px #ddd;
+}

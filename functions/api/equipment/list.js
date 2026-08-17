@@ -1,5 +1,5 @@
 export async function onRequest(){
-return Response.json({
-data:[]
-});
+ return Response.json({
+  data:[]
+ })
 }

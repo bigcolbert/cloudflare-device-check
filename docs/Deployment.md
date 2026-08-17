@@ -1,8 +1,12 @@
-# 部署说明
+# Production Fix Pack部署
 
-1. GitHub上传
-2. Cloudflare Pages连接
-3. 创建D1数据库
-4. 执行migration
-5. 发布
+1. 上传GitHub
+2. Cloudflare Pages连接仓库
+3. Node版本20
+4. Build command:
+npm run build
 
+Output:
+dist
+
+5. 创建D1并执行migration
