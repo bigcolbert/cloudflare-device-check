@@ -6,7 +6,7 @@
 {
 "binding":"DB",
 "database_name":"device-check-prod",
-"database_id":"269a42ed-9fc9-4eeb-8407-9100b1452600"
+"database_id":"YOUR_D1_ID"
 }
 ]
 }
